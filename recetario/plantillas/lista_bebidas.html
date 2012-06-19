@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Curso django</title>
+</head>
+<body>
+	<h1>Recetario de Bebidas</h1>
+	{% for elemento in lista %}
+	<ul>
+		<li><strong>{{element.nombre}}</strong></li>
+		<li>{{elemento.ingredientes}}</li>ç
+		<li>{{elemento.preparacion}}</li>
+	</ul>
+	{% endfor %}
+</body>
+</html>
